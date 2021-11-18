@@ -8,10 +8,11 @@
 *.pyc
 __pycache__/
 local_settings.py
-db.sqlite3
+step-by-step.txt
+#db.sqlite3
 db.sqlite3-journal
-/media
-/static
+#/media
+/static/admin
 
 
 # End of https://www.toptal.com/developers/gitignore/api/django
