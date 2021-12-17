@@ -25,7 +25,7 @@ def product(request, category_slug, product_slug):
     try:
         product = Product.objects.get(category_product__slug_category=category_slug, slug_product=product_slug)
     except Exception as e:
-        raise e
+        print(e)
     return render(request, 'shop/product.html', {'product': product})
 
 
